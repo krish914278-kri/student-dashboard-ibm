@@ -1,0 +1,310 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial;
+}
+
+/* BODY */
+
+
+body{
+
+background-image:url("image2.png");
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+height:100vh;
+
+}
+
+
+
+
+
+/* LOGIN PAGE */
+
+.login{
+
+width:350px;
+margin:120px auto;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+text-align:center;
+
+}
+
+.login h2{
+margin-bottom:20px;
+}
+
+.login input{
+
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+
+}
+
+.login button{
+
+width:100%;
+padding:12px;
+margin-top:10px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+
+}
+
+.login button:hover{
+background:#1e40af;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+
+width:230px;
+height:100vh;
+background:linear-gradient(180deg,#111827,#1f2937);
+color:white;
+position:fixed;
+padding:30px 20px;
+
+}
+
+.sidebar h2{
+
+margin-bottom:30px;
+
+}
+
+.sidebar ul{
+
+list-style:none;
+
+}
+
+.sidebar li{
+
+padding:12px;
+margin:5px 0;
+border-radius:6px;
+cursor:pointer;
+transition:0.2s;
+
+}
+
+.sidebar li:hover{
+
+background:#374151;
+
+}
+
+
+/* MAIN AREA */
+
+.main{
+
+margin-left:250px;
+padding:30px;
+
+}
+
+
+/* CARDS / SECTIONS */
+
+.section{
+
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
+margin-top:20px;
+
+}
+
+.section h2{
+
+margin-bottom:15px;
+
+}
+
+
+/* INPUTS */
+
+.section input,
+textarea{
+
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+margin-right:10px;
+margin-top:10px;
+
+}
+
+textarea{
+width:100%;
+height:100px;
+}
+
+
+/* BUTTONS */
+
+button{
+
+padding:8px 14px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+background:#2566f1;
+color:white;
+transition:0.2s;
+
+}
+
+button:hover{
+
+background:#1d4ed8;
+
+}
+
+
+/* LIST ITEMS */
+
+li{
+
+margin-top:8px;
+
+}
+
+li button{
+
+margin-left:10px;
+background:red;
+color:white;
+border:none;
+padding:4px 7px;
+border-radius:4px;
+
+}
+
+
+/* SIDEBAR BUTTONS */
+
+.sidebar button{
+
+width:100%;
+margin-top:10px;
+background:#374151;
+
+}
+
+.sidebar button:hover{
+
+background:#4b5563;
+
+}
+
+
+/* HIDDEN CLASS */
+
+.hidden{
+
+display:none;
+
+}
+
+
+/* DARK MODE */
+
+.dark{
+
+background:#111827;
+color:white;
+
+}
+
+.dark .section{
+
+background:#1f2937;
+color:white;
+
+}
+
+.dark input,
+.dark textarea{
+
+background:#374151;
+color:white;
+border:none;
+
+}
+
+#calendarGrid{
+
+display:grid;
+grid-template-columns:repeat(7,1fr);
+gap:10px;
+margin-top:20px;
+
+}
+
+.day{
+
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+text-align:center;
+
+}
+
+.dayNumber{
+
+font-weight:bold;
+margin-bottom:10px;
+
+}
+
+.tick{
+
+background:green;
+color:white;
+border:none;
+margin:3px;
+padding:5px 8px;
+cursor:pointer;
+
+}
+
+.cross{
+
+background:red;
+color:white;
+border:none;
+margin:3px;
+padding:5px 8px;
+cursor:pointer;
+
+}
+
+.today{
+
+border:2px solid #2563eb;
+
+}
