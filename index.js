@@ -397,3 +397,14 @@ updatePomodoro()
 generateCalendar()
 
 }
+/* ================= DARK MODE ================= */
+
+function darkMode(){
+
+document.body.classList.toggle("dark")
+
+let mode = document.body.classList.contains("dark")
+
+localStorage.setItem("darkMode", mode)
+
+}
